@@ -1,0 +1,25 @@
+PERBANDINGAN KINERJA MODEL
+======================================================================
+
+Kedua model menggunakan:
+  - Data training & testing yang SAMA (split yang sama)
+  - Fitur yang SAMA (hasil seleksi fitur)
+  - Normalisasi & outlier handling dari TRAINING saja
+
+Metrik            Decision Tree     Naïve Bayes
+-----------------------------------------------
+Accuracy                 0.7228          0.7356
+Precision                0.4791          0.5018
+Sensitivity              0.4893          0.7273
+F1-Score                 0.4841          0.5939
+Specificity              0.8074          0.7386
+
+Model dengan akurasi tertinggi: Naïve Bayes (0.7356)
+
+
+CATATAN RUMUS:
+- Sensitivity = TP / (TP + FN) = Recall
+  Keduanya rumus identik. 'Recall' lazim di ML,
+  'Sensitivity' lazim di Statistik/Medis.
+- Specificity = TN / (TN + FP)
+  Kemampuan model mendeteksi kelas negatif (Churn = No)

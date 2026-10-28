@@ -1,0 +1,7 @@
+HASIL EVALUASI CLUSTERING K-MEANS
+============================================================
+
+Fitur Terpilih: capital-gain, hours-per-week
+Jumlah Cluster (k): 5
+Inertia: 14686341069.634644
+Silhouette Score: 0.9618522509636206

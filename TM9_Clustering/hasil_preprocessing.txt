@@ -1,0 +1,42 @@
+HASIL PREPROCESSING DATA CLUSTERING
+============================================================
+
+HEAD DATA:
+   age  workclass  fnlwgt     education  educational-num      marital-status         occupation relationship   race  gender  capital-gain  capital-loss  hours-per-week native-country income
+0   25    Private  226802          11th                7       Never-married  Machine-op-inspct    Own-child  Black    Male             0             0              40  United-States  <=50K
+1   38    Private   89814       HS-grad                9  Married-civ-spouse    Farming-fishing      Husband  White    Male             0             0              50  United-States  <=50K
+2   28  Local-gov  336951    Assoc-acdm               12  Married-civ-spouse    Protective-serv      Husband  White    Male             0             0              40  United-States   >50K
+3   44    Private  160323  Some-college               10  Married-civ-spouse  Machine-op-inspct      Husband  Black    Male          7688             0              40  United-States   >50K
+4   18          ?  103497  Some-college               10       Never-married                  ?    Own-child  White  Female             0             0              30  United-States  <=50K
+
+SHAPE DATA:
+(48842, 15)
+
+STATISTIK DESKRIPTIF:
+                age        fnlwgt  educational-num  capital-gain  capital-loss  hours-per-week
+count  48842.000000  4.884200e+04     48842.000000  48842.000000  48842.000000    48842.000000
+mean      38.643585  1.896641e+05        10.078089   1079.067626     87.502314       40.422382
+std       13.710510  1.056040e+05         2.570973   7452.019058    403.004552       12.391444
+min       17.000000  1.228500e+04         1.000000      0.000000      0.000000        1.000000
+25%       28.000000  1.175505e+05         9.000000      0.000000      0.000000       40.000000
+50%       37.000000  1.781445e+05        10.000000      0.000000      0.000000       40.000000
+75%       48.000000  2.376420e+05        12.000000      0.000000      0.000000       45.000000
+max       90.000000  1.490400e+06        16.000000  99999.000000   4356.000000       99.000000
+
+MISSING VALUE:
+age                0
+workclass          0
+fnlwgt             0
+education          0
+educational-num    0
+marital-status     0
+occupation         0
+relationship       0
+race               0
+gender             0
+capital-gain       0
+capital-loss       0
+hours-per-week     0
+native-country     0
+income             0
+

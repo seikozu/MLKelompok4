@@ -1,0 +1,47 @@
+HASIL KLASIFIKASI DAN EVALUASI NAÏVE BAYES
+======================================================================
+
+Metode       : Naïve Bayes (GaussianNB)
+Test Size    : 20%
+Random State : 42
+
+Fitur yang digunakan:
+1. OnlineSecurity
+2. OnlineBackup
+3. DeviceProtection
+4. TechSupport
+5. Contract
+6. tenure
+7. MonthlyCharges
+8. TotalCharges
+
+Jumlah fitur : 8
+Data training: 5625
+Data testing : 1407
+
+Confusion Matrix:
+[[763 270]
+ [102 272]]
+
+Komponen Confusion Matrix:
+True Negative  (TN): 763
+False Positive (FP): 270
+False Negative (FN): 102
+True Positive  (TP): 272
+
+Metrik Evaluasi:
+Accuracy    : 0.7356
+Precision   : 0.5018
+Sensitivity : 0.7273
+F1-Score    : 0.5939
+Specificity : 0.7386
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          No       0.88      0.74      0.80      1033
+         Yes       0.50      0.73      0.59       374
+
+    accuracy                           0.74      1407
+   macro avg       0.69      0.73      0.70      1407
+weighted avg       0.78      0.74      0.75      1407

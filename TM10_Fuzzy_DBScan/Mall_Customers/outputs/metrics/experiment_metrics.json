@@ -1,0 +1,28 @@
+{
+    "K-Means": {
+        "n_clusters": 5,
+        "silhouette_score": 0.5546571631111091,
+        "davies_bouldin_index": 0.5722356162263352,
+        "calinski_harabasz_index": 248.64932001536357,
+        "runtime": 0.009520530700683594,
+        "noise_percentage": 0.0
+    },
+    "Fuzzy C-Means": {
+        "n_clusters": 5,
+        "silhouette_score": 0.5546571631111091,
+        "davies_bouldin_index": 0.5722356162263352,
+        "calinski_harabasz_index": 248.64932001536357,
+        "runtime": 0.0042912960052490234,
+        "noise_percentage": 0.0,
+        "fpc": 0.6710701960013032
+    },
+    "DBSCAN": {
+        "n_clusters": 2,
+        "silhouette_score": 0.3875583892728279,
+        "davies_bouldin_index": 0.7888642629621753,
+        "calinski_harabasz_index": 85.38970641481356,
+        "runtime": 0.0020394325256347656,
+        "n_noise": 8,
+        "noise_percentage": 4.0
+    }
+}

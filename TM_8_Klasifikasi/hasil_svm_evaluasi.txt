@@ -1,0 +1,49 @@
+HASIL KLASIFIKASI DAN EVALUASI SVM
+======================================================================
+
+Metode       : Support Vector Machine
+Kernel       : RBF
+C            : 1.0
+Gamma        : scale
+Random State : 42
+
+Fitur yang digunakan:
+1. OnlineSecurity
+2. OnlineBackup
+3. DeviceProtection
+4. TechSupport
+5. Contract
+6. tenure
+7. MonthlyCharges
+8. TotalCharges
+
+Data training: 5625
+Data testing : 1407
+
+Confusion Matrix:
+[[900 133]
+ [186 188]]
+
+Komponen Confusion Matrix:
+True Negative  (TN): 900
+False Positive (FP): 133
+False Negative (FN): 186
+True Positive  (TP): 188
+
+Metrik Evaluasi:
+Accuracy    : 0.7733
+Precision   : 0.5857
+Recall      : 0.5027
+Sensitivity : 0.5027
+F1-Score    : 0.5410
+Specificity : 0.8712
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          No       0.83      0.87      0.85      1033
+         Yes       0.59      0.50      0.54       374
+
+    accuracy                           0.77      1407
+   macro avg       0.71      0.69      0.70      1407
+weighted avg       0.76      0.77      0.77      1407

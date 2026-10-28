@@ -1,0 +1,23 @@
+HASIL SELEKSI FITUR
+============================================================
+
+1. CHI-SQUARE (Top-5 Fitur Kategorikal):
+OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, Contract
+
+2. T-TEST (Fitur Numerik Kontinu):
+  - tenure: t-stat = 28.1736, p-value = 1.7715e-163 (Signifikan)
+  - MonthlyCharges: t-stat = -14.7859, p-value = 1.4611e-48 (Signifikan)
+  - TotalCharges: t-stat = 15.1463, p-value = 7.9845e-51 (Signifikan)
+
+Fitur Numerik Signifikan (p-value < 0.05):
+tenure, MonthlyCharges, TotalCharges
+
+3. FITUR GABUNGAN UNTUK KLASIFIKASI:
+   1. OnlineSecurity
+   2. OnlineBackup
+   3. DeviceProtection
+   4. TechSupport
+   5. Contract
+   6. tenure
+   7. MonthlyCharges
+   8. TotalCharges
