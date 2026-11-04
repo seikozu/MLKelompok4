@@ -1,0 +1,17 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "baris_train": 16512,
+  "baris_test": 4128,
+  "kolom_fitur": [
+    "longitude",
+    "latitude",
+    "housing_median_age",
+    "total_rooms",
+    "total_bedrooms",
+    "population",
+    "households",
+    "median_income",
+    "ocean_proximity"
+  ]
+}
