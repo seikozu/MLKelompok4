@@ -1,0 +1,42 @@
+{
+    "best_model_name": "Gradient Boosting",
+    "target": "median_house_value",
+    "random_state": 42,
+    "test_size": 0.2,
+    "feature_columns": [
+        "longitude",
+        "latitude",
+        "housing_median_age",
+        "total_rooms",
+        "total_bedrooms",
+        "population",
+        "households",
+        "median_income",
+        "ocean_proximity"
+    ],
+    "evaluation_metrics": {
+        "Gradient Boosting": {
+            "Model": "Gradient Boosting",
+            "MAE": 31692.859329340496,
+            "MSE": 2275633263.6337547,
+            "RMSE": 47703.59801559789,
+            "MAPE (%)": 18.010792803785144,
+            "R2": 0.8263417527336712
+        },
+        "AdaBoost": {
+            "Model": "AdaBoost",
+            "MAE": 40747.711783840605,
+            "MSE": 3195700574.331866,
+            "RMSE": 56530.527808714694,
+            "MAPE (%)": 24.43124217643174,
+            "R2": 0.7561295269342712
+        }
+    },
+    "best_parameters_gb": {
+        "model__subsample": 0.8,
+        "model__n_estimators": 300,
+        "model__max_depth": 5,
+        "model__learning_rate": 0.1
+    },
+    "tuning_time_gb": 136.7257740497589
+}
