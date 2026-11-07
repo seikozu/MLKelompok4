@@ -17,11 +17,11 @@
     "evaluation_metrics": {
         "Gradient Boosting": {
             "Model": "Gradient Boosting",
-            "MAE": 31692.859329340496,
-            "MSE": 2275633263.6337547,
-            "RMSE": 47703.59801559789,
-            "MAPE (%)": 18.010792803785144,
-            "R2": 0.8263417527336712
+            "MAE": 31805.66803757109,
+            "MSE": 2268092261.3462644,
+            "RMSE": 47624.49224239839,
+            "MAPE (%)": 18.11355552255172,
+            "R2": 0.8269172221033647
         },
         "AdaBoost": {
             "Model": "AdaBoost",
@@ -38,5 +38,5 @@
         "model__max_depth": 5,
         "model__learning_rate": 0.1
     },
-    "tuning_time_gb": 136.7257740497589
+    "tuning_time_gb": 164.29979825019836
 }

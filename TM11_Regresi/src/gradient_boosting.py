@@ -133,7 +133,8 @@ else:
 
 # 7. SAVE BEST MODEL & METADATA
 print("\n--- SAVING BEST MODEL ---")
-joblib.dump(best_model, "models/best_model.joblib")
+os.makedirs("saved_models", exist_ok=True)
+joblib.dump(best_gb_model, "saved_models/best_model.joblib")
 
 with open("hasil_orang1_final/split_info.json", "r") as f:
     split_info = json.load(f)
